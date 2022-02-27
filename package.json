@@ -1,0 +1,24 @@
+{
+  "name": "discord-status",
+  "version": "1.0.0",
+  "description": "Simple Status Intervall Changer",
+  "main": "index.js",
+  "scripts": {
+    "start": "node /src/index.js",
+    "dev": "nodemon /src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/einfachlxon/discord-status.git"
+  },
+  "author": "EinfachLxon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/einfachlxon/discord-status/issues"
+  },
+  "homepage": "https://github.com/einfachlxon/discord-status#readme",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0"
+  }
+}
