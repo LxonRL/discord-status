@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client({ intents: ["GUILDS", "GUILD_MESSAGES"] });
 
-const messages = ['auf Nachrichten Hub', 'Nachrichten zu'];
+const messages = ['Nachrichten Hub', 'Nachrichtensender'];
 const current = 1;
 
 client.on('ready', ()=> {
@@ -23,4 +23,4 @@ client.on('ready', ()=> {
 
 
 
-client.login('YOUR TOKEN HERE');
+client.login(porcess.env.TOKEN);
